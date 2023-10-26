@@ -1,11 +1,11 @@
 from django.db import models
 from django.contrib import admin
-class Employee (models.Model):
-    eid=models.CharField(max_length=20,help_text="Employee ID")
+class footballplayer (models.Model):
+    numofmatch=models.IntegerField()
     name=models.CharField(max_length=100)
     salary=models.IntegerField()
     age=models.IntegerField()
-    email=models.EmailField()
+    height=models.IntegerField()
 
-class EmployeeAdmin(admin.ModelAdmin):
-    list_display=('eid','name','salary','age','email')
+class footballplayerAdmin(admin.ModelAdmin):
+    list_display=('numofmatch','name','salary','age','height')
