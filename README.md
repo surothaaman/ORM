@@ -42,8 +42,8 @@ class footballplayerAdmin(admin.ModelAdmin):
 ```
 
 ## OUTPUT
-![Alt text](<Screenshot (57).png>)
 
+![Screenshot (57)](https://github.com/surothaaman/ORM/assets/133313653/aeb5813a-4506-46e3-bb2b-132a4e3da875)
 
 ## RESULT
 Thus the program for creating a database using ORM hass been executed successfully
